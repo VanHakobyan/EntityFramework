@@ -10,6 +10,12 @@ namespace Introduction
     {
         static void Main(string[] args)
         {
+            DataBaseIntroEntities contextEntitys = new DataBaseIntroEntities();
+            List<Table> list = contextEntitys.Tables.ToList();
+            foreach (var item in list)
+            {
+                Console.WriteLine($"{item.Id} {item.FirstName} {item.LastName} {item.Age} ");
+            }
         }
     }
 }
