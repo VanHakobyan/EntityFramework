@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneToOneR", "OneToOneR\OneT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneToMany", "OneToMany\OneToMany.csproj", "{1862E84A-63CA-48D0-AB56-2815EE5A69FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyToMany", "ManyToMany\ManyToMany.csproj", "{03A9120F-1938-44D8-8B5E-1EF54CBA3164}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1862E84A-63CA-48D0-AB56-2815EE5A69FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1862E84A-63CA-48D0-AB56-2815EE5A69FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1862E84A-63CA-48D0-AB56-2815EE5A69FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A9120F-1938-44D8-8B5E-1EF54CBA3164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A9120F-1938-44D8-8B5E-1EF54CBA3164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A9120F-1938-44D8-8B5E-1EF54CBA3164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A9120F-1938-44D8-8B5E-1EF54CBA3164}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
