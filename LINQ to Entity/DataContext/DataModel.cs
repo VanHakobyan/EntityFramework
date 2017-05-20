@@ -11,13 +11,13 @@
         {
             Database.SetInitializer(new MyContextInitializer());
         }
+        public virtual DbSet<Company> Companies { get; set; }
+        public virtual DbSet<Phone> Phones { get; set; }
         public DataModel()
             : base("name=DataModel")
         {
         }
         
-        public virtual DbSet<Company> Companies { get; set; }
-        public virtual DbSet<Phone> Phones { get; set; }
 
     }
 }
