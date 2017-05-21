@@ -1,10 +1,11 @@
-﻿using System;
+﻿using DataContextLinq;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataContextLinq
+namespace Join
 {
     class Program
     {
@@ -12,6 +13,20 @@ namespace DataContextLinq
         {
             using (LinqModel db = new LinqModel())
             {
+                var phonesJoin = db.Phones.Join(db.Companies,
+                    p => p.CompanyId,
+                    c => c.Id,
+                    (p, c) => new
+                    {
+                        p.Id,
+                        p.Name,
+                        Company = c.Name,
+                        p.Price
+                    });
+                foreach (var p in phonesJoin)
+                {
+                    Console.WriteLine($"{p.Id}: {p.Name} {p.Company} {p.Price}");
+                }
 
                 //Linq inner join
                 var phonesJoinLinq = from phone in db.Phones
@@ -23,7 +38,7 @@ namespace DataContextLinq
                                          Company = comp.Name,
                                          phone.Price
                                      };
-                foreach (var p in phonesJoinLinq )
+                foreach (var p in phonesJoinLinq)
                 {
                     Console.WriteLine($"{p.Id}: {p.Name} {p.Company} {p.Price}");
                 }
