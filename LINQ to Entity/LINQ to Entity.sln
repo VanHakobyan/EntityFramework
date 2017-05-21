@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContextLinq", "DataCont
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Select", "Select\Select.csproj", "{1C326AF3-96B2-4EE4-8EED-8C30F235564E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{D0F944BB-27F2-41A7-BCCA-8D20EA53EF94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1C326AF3-96B2-4EE4-8EED-8C30F235564E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C326AF3-96B2-4EE4-8EED-8C30F235564E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C326AF3-96B2-4EE4-8EED-8C30F235564E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F944BB-27F2-41A7-BCCA-8D20EA53EF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F944BB-27F2-41A7-BCCA-8D20EA53EF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F944BB-27F2-41A7-BCCA-8D20EA53EF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F944BB-27F2-41A7-BCCA-8D20EA53EF94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
