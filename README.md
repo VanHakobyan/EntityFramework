@@ -1,4 +1,5 @@
 <p align="center"><img src="https://i.ytimg.com/vi/ikCmdOYBBVw/maxresdefault.jpg"></p><br>
+
 ### Introduction
 
 Entity framework is one of the most powerful ORM (Object Relation Mapper) frameworks. It is generally used as a Data Access layer in the application. Initially Entity framework came with fewer features and limited functionality. There were continuous changes made in the Entity framework as a result, entity framework has become more powerful  and comes with lots of new features in every release. In this article, we will discuss what are the new features available in Entity Framework 7.
