@@ -2,7 +2,7 @@
 
 namespace InitilizationDB
 {
-    public class CodeContext : DbContext
+    class CodeContext : DbContext
     {
         public CodeContext() :
             base("name=CodeContext")
